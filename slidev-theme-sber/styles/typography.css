@@ -1,0 +1,60 @@
+/* Глобальные правила типографики */
+.slidev-layout h1 {
+	font: var(--font-h1);
+	margin-bottom: 0.8rem;
+}
+
+.slidev-layout h2 {
+	font: var(--font-h2);
+	margin-bottom: 0.8rem; /* верхний блок всегда двигает нижний */
+}
+
+.slidev-layout h3 {
+	font-family: "SB Sans Display", sans-serif;
+	font-size: var(--font-h3-size); /* 20px */
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 0.6rem;
+}
+
+.slidev-layout h4 {
+	font-family: "SB Sans Display", sans-serif;
+	font-size: var(--font-h4-size); /* 18px */
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 0.6rem;
+}
+
+.slidev-layout h5 {
+	font-family: "SB Sans Display", sans-serif;
+	font-size: 0.875rem; /* 14px */
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 0.6rem;
+}
+
+.slidev-layout h6 {
+	font-family: "SB Sans Display", sans-serif;
+	font-size: 0.75rem; /* 12px */
+	font-weight: 600;
+	line-height: 1.4;
+	margin-bottom: 0.6rem;
+}
+
+.slidev-layout p,
+.slidev-layout li,
+.slidev-layout div {
+	font-family: "SB Sans Display", sans-serif;
+	font-size: var(--font-regular-text-size);
+	line-height: 1.5;
+}
+
+/* у Shiki сложные селекторы, поэтому перебиваем насилием */
+.slidev-code span,
+.slidev-layout pre,
+.slidev-layout code {
+	font-family: "SB Sans Display", sans-serif;
+	font-size: var(--font-regular-text-size) !important;
+	line-height: 1.5 !important;
+	letter-spacing: 0.01em !important;
+}

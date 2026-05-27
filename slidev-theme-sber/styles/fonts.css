@@ -1,0 +1,252 @@
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Semibold Italic"),
+		local("SBSansText-SemiboldItalic"),
+		url("../assets/fonts/SBSansText-SemiboldItalic.woff2") format("woff2");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Interface";
+	src:
+		local("SB Sans Interface"),
+		local("SBSansInterface-Regular"),
+		url("../assets/fonts/SBSansInterface-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Bold"),
+		local("SBSansText-Bold"),
+		url("../assets/fonts/SBSansText-Bold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Display";
+	src:
+		local("SB Sans Display Light"),
+		local("SBSansDisplay-Light"),
+		url("../assets/fonts/SBSansDisplay-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Display";
+	src:
+		local("SB Sans Display Thin"),
+		local("SBSansDisplay-Thin"),
+		url("../assets/fonts/SBSansDisplay-Thin.woff2") format("woff2");
+	font-weight: 100;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Display";
+	src:
+		local("SB Sans Display Semibold"),
+		local("SBSansDisplay-Semibold"),
+		url("../assets/fonts/SBSansDisplay-Semibold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Interface";
+	src:
+		local("SB Sans Interface Light"),
+		local("SBSansInterface-Light"),
+		url("../assets/fonts/SBSansInterface-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Medium"),
+		local("SBSansText-Medium"),
+		url("../assets/fonts/SBSansText-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Display";
+	src:
+		local("SB Sans Display"),
+		local("SBSansDisplay-Regular"),
+		url("../assets/fonts/SBSansDisplay-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text"),
+		local("SBSansText-Regular"),
+		url("../assets/fonts/SBSansText-Regular.woff2") format("woff2");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Light"),
+		local("SBSansText-Light"),
+		url("../assets/fonts/SBSansText-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text Comp";
+	src:
+		local("SB Sans Text Comp Light"),
+		local("SBSansTextComp-Light"),
+		url("../assets/fonts/SBSansTextComp-Light.woff2") format("woff2");
+	font-weight: 300;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Light Italic"),
+		local("SBSansText-LightItalic"),
+		url("../assets/fonts/SBSansText-LightItalic.woff2") format("woff2");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Interface";
+	src:
+		local("SB Sans Interface Light Italic"),
+		local("SBSansInterface-LightItalic"),
+		url("../assets/fonts/SBSansInterface-LightItalic.woff2") format("woff2");
+	font-weight: 300;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Display";
+	src:
+		local("SB Sans Display Medium"),
+		local("SBSansDisplay-Medium"),
+		url("../assets/fonts/SBSansDisplay-Medium.woff2") format("woff2");
+	font-weight: 500;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Bold Italic"),
+		local("SBSansText-BoldItalic"),
+		url("../assets/fonts/SBSansText-BoldItalic.woff2") format("woff2");
+	font-weight: bold;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Semibold"),
+		local("SBSansText-Semibold"),
+		url("../assets/fonts/SBSansText-Semibold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Display";
+	src:
+		local("SB Sans Display Bold"),
+		local("SBSansDisplay-Bold"),
+		url("../assets/fonts/SBSansDisplay-Bold.woff2") format("woff2");
+	font-weight: bold;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text Comp";
+	src:
+		local("SB Sans Text Comp ExtraLight"),
+		local("SBSansTextComp-ExtraLight"),
+		url("../assets/fonts/SBSansTextComp-ExtraLight.woff2") format("woff2");
+	font-weight: 200;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Interface";
+	src:
+		local("SB Sans Interface Semibold Italic"),
+		local("SBSansInterface-SemiboldItalic"),
+		url("../assets/fonts/SBSansInterface-SemiboldItalic.woff2") format("woff2");
+	font-weight: 600;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Text";
+	src:
+		local("SB Sans Text Italic"),
+		local("SBSansText-Italic"),
+		url("../assets/fonts/SBSansText-Italic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Interface";
+	src:
+		local("SB Sans Interface Semibold"),
+		local("SBSansInterface-Semibold"),
+		url("../assets/fonts/SBSansInterface-Semibold.woff2") format("woff2");
+	font-weight: 600;
+	font-style: normal;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "SB Sans Interface";
+	src:
+		local("SB Sans Interface Italic"),
+		local("SBSansInterface-Italic"),
+		url("../assets/fonts/SBSansInterface-Italic.woff2") format("woff2");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}

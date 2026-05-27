@@ -1,0 +1,4 @@
+---
+layout: simple-slide
+---
+# Заголовок

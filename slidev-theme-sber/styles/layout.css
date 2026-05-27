@@ -1,0 +1,47 @@
+.slidev-layout {
+	position: relative;
+	/* общий отступ от краёв: 1rem (снаружи) + 1rem (внутри) */
+	padding: 2.5rem 3.5rem; /* ~40px сверху/снизу, ~56px слева/справа при базе 16px; визуально выровнено под H2 */
+	height: 100%;
+	color: var(--color);
+}
+
+/* нумерация (кроме титульного / первого) */
+.slide-number {
+	position: absolute;
+	right: 1.5rem;
+	bottom: 1.2rem;
+	font: var(--font-pagination);
+	letter-spacing: var(--font-pagination-letter-spacing);
+	color: var(--color);
+	opacity: 0.8;
+}
+
+.slidev-layout ol {
+	color: var(--color);
+	padding-left: 1rem;
+}
+
+.slidev-layout ul {
+	color: var(--color);
+	list-style: none;
+	padding-left: 0.5rem;
+
+	& li {
+		position: relative;
+		padding-left: 1.2rem;
+		margin-bottom: 0.125rem;
+
+		&::before {
+			content: "";
+			position: absolute;
+			left: 0.2rem;
+			top: 0.8em;
+			transform: translateY(-50%);
+			width: 0.4em;
+			height: 0.4em;
+			border-radius: 50%;
+			background-color: var(--dark-blue);
+		}
+	}
+}

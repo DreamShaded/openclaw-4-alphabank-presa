@@ -1,5 +1,5 @@
 ---
-theme: ../slidev-theme-sber
+theme: ./slidev-theme-sber
 highlighter: shiki
 lineNumbers: false
 defaults:
@@ -18,7 +18,10 @@ contentAlign: left
 
 <!--
 Всем привет! приветище! 
-Многострадальный доклад. 
+Многострадальный доклад. В итоге финальную презу клодычем делал.
+Инструмент новый, эксперименты - тут мой эксперимент.
+Буду оч рад критике, но если дышу в правильную сторону - ещё лучше.
+Спойлер - система работает, плюс я показывал похожего агента профильным дата сайнс экспертам - сказали нормально)
 Надеюсь нанести пользу большей части.
 -->
 
@@ -29,3 +32,40 @@ src: ./pages/intro.md
 ---
 src: ./pages/bootstrap-files.md
 ---
+
+---
+src: ./pages/skill-creation.md
+---
+
+---
+layout: simple-slide
+variant: 5
+transition: slide-left
+clicks: 5
+---
+
+<!-- Takeaways: 4 skills checked + final "we can build complex skills" -->
+<TakeawaysSlide />
+
+<!--
+Что у нас в итоге.
+Простые навыки — markdown с frontmatter, агент сам подхватит.
+RAG — поняли, зачем нужны эмбеддинги, hybrid-поиск и Qdrant.
+MCP — stateful сессия, JSON-RPC и registerTool как точка входа для агента.
+LangChain и LangGraph — конструктор для сборки цепочек и графов состояний.
+И главное — теперь у нас есть всё, чтобы делать сложные навыки: сцеплять LLM с любым нужным API.
+-->
+
+---
+layout: simple-slide
+variant: 5
+transition: slide-up
+---
+
+<!-- Final slide: thanks + QR to github repo -->
+<OutroSlide />
+
+<!--
+Спасибо за внимание! Весь код демо и навыков — в репозитории по QR-коду.
+Буду рад вопросам и обратной связи.
+-->

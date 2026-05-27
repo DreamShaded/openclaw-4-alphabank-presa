@@ -1,0 +1,95 @@
+:root {
+	/* основной цвет темы */
+	--slidev-theme-primary: #5d8392;
+
+	/* цвета (как в Фигме) */
+	--grey-black: #333333;
+	--grey-selection: #3333331a;
+	--grey-border: #33333399;
+	--black: #0b0400;
+
+	--light: #f1f1f1;
+	--light-border: #f1f1f199;
+	--white: white;
+	--white-sub: #ffffff80;
+
+	--blue: #566ae4;
+	--dark-blue: #3845cf;
+	--light-blue: #babde7;
+
+	/* размеры типографики */
+	--font-h1-size: 3rem; /* 48px */
+	--font-h2-size: 2.5rem; /* 40px */
+	--font-h3-size: 1.25rem; /* 20px */
+	--font-h4-size: 1.125rem; /* 18px */
+	--font-regular-text-size: 0.875rem; /* 14px */
+
+	--font-pagination-size: 0.875rem;
+
+	/* основные переменные типографики */
+	--font-h1: normal 700 var(--font-h1-size) / 1.1 "SB Sans Display";
+	--font-h2: normal 700 var(--font-h2-size) / 1.2 "SB Sans Display";
+	--font-h3: normal 600 var(--font-h3-size) / 1.4 "SB Sans Display";
+
+	--font-regular-text:
+		normal 400 var(--font-regular-text-size) / 1.5 "SB Sans Display";
+	--font-pagination:
+		normal 600 var(--font-pagination-size) / 1.4 "SB Sans Text";
+
+	/* межбуквенные интервалы */
+	--font-pagination-letter-spacing: -5%;
+
+	/* акцентный градиент */
+	--color-accent-gradient: linear-gradient(
+		45deg,
+		#20d03b 0%,
+		#63a5ff 50%,
+		#20d03b 100%
+	);
+
+	/* палитра */
+	--color-green: #56ff71;
+	--color-cyan: #62ecff;
+	--color-blue-dark: #1032a1;
+	--color-black: #000000;
+
+	--color-green-soft: #adffc6;
+	--color-cyan-soft: #bafffb;
+	--color-blue: #0b82ff;
+	--color-white: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--color: var(--white);
+		--background: var(--grey-black);
+		--border-color: var(--grey-border);
+		--logo-bg-color: var(--dark-blue);
+	}
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color: var(--grey-black);
+		--background: var(--light);
+		--border-color: var(--light-border);
+		--logo-bg-color: var(--grey-black);
+	}
+}
+
+/* Переключение темы в рантайме (API Slidev) */
+html.dark,
+:root.dark {
+	--color: var(--white);
+	--background: var(--grey-black);
+	--border-color: var(--grey-border);
+	--logo-bg-color: var(--dark-blue);
+}
+
+html:not(.dark),
+:root.light {
+	--color: var(--grey-black);
+	--background: var(--light);
+	--border-color: var(--light-border);
+	--logo-bg-color: var(--grey-black);
+}
