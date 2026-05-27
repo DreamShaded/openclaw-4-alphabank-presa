@@ -27,11 +27,11 @@ import qrImg from '../public/images/qr-github.png'
 
     <div class="out-right">
       <div class="out-qr-card">
-        <img :src="qrImg" alt="QR · dreamshaded.github.io/openclaw-4-alphabank-presa" class="out-qr-img" />
+        <img :src="qrImg" alt="QR · github.com/DreamShaded/openclaw-4-alphabank-27.05.2026" class="out-qr-img" />
         <div class="out-qr-cap">наведите камеру</div>
       </div>
       <div class="out-url">
-        <span class="out-url-domain">dreamshaded.github.io/</span>openclaw-4-alphabank-presa
+        <span class="out-url-domain">github.com/</span>DreamShaded/openclaw-4-alphabank-27.05.2026
       </div>
     </div>
 
